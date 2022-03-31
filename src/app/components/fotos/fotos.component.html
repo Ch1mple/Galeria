@@ -1,0 +1,6 @@
+<div *ngFor="let index of photos">
+    
+    <img src="{{ index.thumbnailUrl }}"/>
+    <h2>{{ index.title }}</h2>
+    <button routerLink="/detallesfoto/{{index.id}}">Detalles</button>
+  </div>
